@@ -28,7 +28,8 @@
     "build": "next build",
     "start": "next start --port ${PORT-3000}",
     "export": "yarn build && next export -o _static",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "deploy" :"firebase deploy --token $GAME_FB_TOKEN"
   },
   "repository": {
     "type": "git",

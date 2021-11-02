@@ -1,23 +1,25 @@
-### nextjs-admin-template
+# Game Rental App
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/uwidcit/game-rental-client)
 
 Admin dashboard template based on Next.js with [@paljs/ui](https://github.com/paljs/ui) component package
+Based on the [https://github.com/paljs/nextjs-admin-template](https://github.com/paljs/nextjs-admin-template) template
 
-#### Setup:
+# Setup:
 
-```
-git clone https://github.com/paljs/nextjs-admin-template.git
-
-cd nextjs-admin-template
-
-yarn install
-
-yarn dev
+```bash
+npm install
 ```
 
-![screenshot](./src/images/screenshot1.png)
+# Running
 
-![screenshot](./src/images/screenshot2.png)
+```bash
+npm run dev
+```
 
-![screenshot](./src/images/screenshot3.png)
+# Deployment
+This app is deployed to firebase hosting, a CI token must be stored in the environment variable $GAME_FB_TOKEN so it can be authorized to deploy to the firebase project. Deploy by running the following command
 
-![screenshot](./src/images/screenshot4.png)
+```bash
+npm run deploy 
+```
